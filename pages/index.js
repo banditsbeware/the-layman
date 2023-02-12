@@ -1,21 +1,11 @@
-import { useState } from 'react';
-
-function Header({ title }) {
-  return <h1>{title ? title : "default title"}</h1>;
-}
+import { useState } from 'react'
+// import { Button } from '../components/Button.js'
+import { Header } from '../components/Header.js'
 
 export default function HomePage() {
-  
-  const [likes, setLikes] = useState(0);
-
-  function handleClick() {
-    setLikes(likes + 1);
-  }
-
-  return (
-    <div>
-      <Header title="The Layman" />
-      <button onClick={handleClick}>Like ({likes})</button>
-    </div>
-  );
+    return (
+        <div>
+            <Header title="The Layman" />
+        </div>
+    );
 }

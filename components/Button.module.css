@@ -1,0 +1,9 @@
+
+.generic {
+    height: 40px;
+    align-self: center;
+    padding: 4px;
+    margin: 0 10px;
+    border: 2px solid green;
+    border-radius: 4px;
+}
